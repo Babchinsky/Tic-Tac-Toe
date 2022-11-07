@@ -1,0 +1,150 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "tic-tac-toe.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Cross.bmp"
+
+IDB_BITMAP2             BITMAP                  "Zero.bmp"
+
+IDB_BITMAP3             BITMAP                  "Nothing.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 255, 227
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,138,206,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,198,206,50,14
+    PUSHBUTTON      "",IDC_BUTTON1,20,20,50,50
+    PUSHBUTTON      "",IDC_BUTTON2,100,20,50,50
+    PUSHBUTTON      "",IDC_BUTTON3,180,20,50,50
+    PUSHBUTTON      "",IDC_BUTTON4,20,80,50,50
+    PUSHBUTTON      "",IDC_BUTTON5,100,80,50,50
+    PUSHBUTTON      "",IDC_BUTTON6,180,80,50,50
+    PUSHBUTTON      "",IDC_BUTTON7,20,140,50,50
+    PUSHBUTTON      "",IDC_BUTTON8,100,140,50,50
+    PUSHBUTTON      "",IDC_BUTTON9,180,140,50,50
+    CONTROL         IDB_BITMAP1,IDC_STATIC,"Static",SS_BITMAP,70,7,43,39
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        VERTGUIDE, 20
+        VERTGUIDE, 70
+        VERTGUIDE, 100
+        VERTGUIDE, 150
+        VERTGUIDE, 180
+        VERTGUIDE, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+        HORZGUIDE, 20
+        HORZGUIDE, 70
+        HORZGUIDE, 80
+        HORZGUIDE, 130
+        HORZGUIDE, 140
+        HORZGUIDE, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
